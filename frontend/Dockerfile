@@ -3,6 +3,9 @@ FROM node:16-alpine as build
 
 WORKDIR /app
 
+ARG REACT_APP_API_URL=http://localhost:8000
+ENV REACT_APP_API_URL=${REACT_APP_API_URL}
+
 # Copy package files
 COPY package.json package-lock.json ./
 
