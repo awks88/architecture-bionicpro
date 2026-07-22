@@ -1,2 +1,7 @@
 /postgres-keycloak-data
+/bionicpro-auth/bionicpro-auth
+/reports-api/reports-api
+__pycache__/
+*.pyc
+/.env
 2024__yandex-architecture-sso.code-workspace
